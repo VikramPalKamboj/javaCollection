@@ -47,6 +47,10 @@ public class JavaSet2 {
 		s7.containsAll(s1);
 		System.out.println(s7);
 		
+		
+		//The HashSet does not guarantee the ordering of elements during iteration. 
+		//LinkedHashSet keeps the element order as the elements were inserted.
+		
 
 	}
 
