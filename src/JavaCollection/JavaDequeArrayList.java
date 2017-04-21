@@ -1,14 +1,15 @@
 package JavaCollection;
 
+import java.util.ArrayDeque;
 import java.util.Deque;
 
-import java.util.LinkedList;
-//Deque as a FIFO Queue.
-public class JavaDqueueLinkedList {
+
+//Deque as a LIFO Queue.
+public class JavaDequeArrayList {
 
 	public static void main(String[] args) {
 
-		Deque<String> dq=new LinkedList<>();
+		Deque<String> dq=new ArrayDeque<>();
 		dq.addLast("Python");
 		dq.offerLast("Java");
 		dq.offerLast("Angular2");
@@ -35,5 +36,6 @@ public class JavaDqueueLinkedList {
 		
 		System.out.println(dq.getLast());
 	}
+
 
 }
