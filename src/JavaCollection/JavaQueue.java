@@ -1,4 +1,4 @@
-package set;
+package JavaCollection;
 
 import java.util.LinkedList;
 import java.util.Queue;

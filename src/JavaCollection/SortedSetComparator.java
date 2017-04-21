@@ -1,4 +1,4 @@
-package set;
+package JavaCollection;
 
 import java.util.Comparator;
 import java.util.SortedSet;
